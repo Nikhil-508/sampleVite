@@ -1,14 +1,17 @@
 import "./App.css";
 import Home from "./Component/Home/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./Pages/Navbar";
+import Service from "./Component/Service/Service";
 
 function App() {
   return (
-    <>
-      <h1>this is the new projectasdf ....</h1>
-      <h2>added some paragraph from fasdjf</h2>
-      <h1>added by Nikhil</h1>
-      <Home />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+        <Route path="/service" element={<Service />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

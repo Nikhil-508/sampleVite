@@ -2,16 +2,19 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>this is the new projectasdf ....</h1>
-      <h2>added some paragraph from fasdjf</h2>
-      <h1>added by Nikhil</h1>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Navbar/>} />
+    </Routes>
+     
+    </BrowserRouter>
   );
 }
 

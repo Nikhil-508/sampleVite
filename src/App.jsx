@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
-      <h1>this is the new project ....</h1>
-      <h2>added some heading dev2</h2>
+      <h1>this is the new projectasdf ....</h1>
+      <h2>added some paragraph from fasdjf</h2>
+      <h1>added by Nikhil</h1>
     </>
   );
 }

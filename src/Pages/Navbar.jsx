@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
     <div>
-      this is the navbar from dev 1
+      this navbar changed by dev 2<h1>new heading</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
